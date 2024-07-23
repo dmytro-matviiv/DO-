@@ -1,0 +1,63 @@
+body {
+    background-image: url('./img/111.jpg'); /* ваша фонова картинка */
+    background-size: cover;
+    max-width: 100%; /* Забезпечуємо, що фото завжди вміщується в контейнер */
+    height: auto; /* Автоматична висота для збереження пропорцій */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    margin: 0;
+}
+
+.container {
+    max-width: 500px;
+    max-height: 500px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #45a049;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+button#yesBtn {
+    background-color: #4CAF50; /* зелений колір для кнопки "Так" */
+    color: white;
+}
+
+button#yesBtn:hover {
+    background-color: #45a049; /* темніший зелений колір при наведенні */
+}
+
+button#noBtn {
+    background-color: #f44336; /* червоний колір для кнопки "Ні" */
+    color: white;
+}
+
+button#noBtn:hover {
+    background-color: #d32f2f; /* темніший червоний колір при наведенні */
+}
